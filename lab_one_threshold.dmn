@@ -20,24 +20,24 @@
       <output id="Output_1" label="passes" name="passes" typeRef="boolean" />
       <output id="OutputClause_1cd0s6z" label="reason" name="reason" typeRef="string" />
       <output id="OutputClause_1hoy8mk" label="category" name="category" typeRef="string" />
-      <rule id="DecisionRule_1gkfyhw">
-        <inputEntry id="UnaryTests_0mhkxr8">
-          <text>&gt; 8</text>
-        </inputEntry>
-        <inputEntry id="UnaryTests_1hlxb1d">
+      <rule id="DecisionRule_12vcj9q">
+        <inputEntry id="UnaryTests_1k68o9w">
           <text></text>
         </inputEntry>
-        <inputEntry id="UnaryTests_1ufmogn">
+        <inputEntry id="UnaryTests_18ckjoi">
           <text></text>
         </inputEntry>
-        <outputEntry id="LiteralExpression_0hj85uz">
+        <inputEntry id="UnaryTests_1p7jcd2">
+          <text>&gt; 13</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_14ccr7s">
           <text>false</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_02xm379">
-          <text>"Too many Age outliers"</text>
+        <outputEntry id="LiteralExpression_1msi74q">
+          <text>"Too many Credit Amount outliers"</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1n3a9e1">
-          <text>"Info"</text>
+        <outputEntry id="LiteralExpression_0kdga5c">
+          <text>"Critical"</text>
         </outputEntry>
       </rule>
       <rule id="DecisionRule_104hu11">
@@ -60,24 +60,24 @@
           <text>"Severe"</text>
         </outputEntry>
       </rule>
-      <rule id="DecisionRule_12vcj9q">
-        <inputEntry id="UnaryTests_1k68o9w">
+      <rule id="DecisionRule_1gkfyhw">
+        <inputEntry id="UnaryTests_0mhkxr8">
+          <text>&gt; 8</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1hlxb1d">
           <text></text>
         </inputEntry>
-        <inputEntry id="UnaryTests_18ckjoi">
+        <inputEntry id="UnaryTests_1ufmogn">
           <text></text>
         </inputEntry>
-        <inputEntry id="UnaryTests_1p7jcd2">
-          <text>&gt; 13</text>
-        </inputEntry>
-        <outputEntry id="LiteralExpression_14ccr7s">
+        <outputEntry id="LiteralExpression_0hj85uz">
           <text>false</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1msi74q">
-          <text>"Too many Credit Amount outliers"</text>
+        <outputEntry id="LiteralExpression_02xm379">
+          <text>"Too many Age outliers"</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0kdga5c">
-          <text>"Critical"</text>
+        <outputEntry id="LiteralExpression_1n3a9e1">
+          <text>"Info"</text>
         </outputEntry>
       </rule>
       <rule id="DecisionRule_1o3e3d0">
