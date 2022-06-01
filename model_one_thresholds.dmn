@@ -62,7 +62,7 @@
       </rule>
       <rule id="DecisionRule_1gkfyhw">
         <inputEntry id="UnaryTests_0mhkxr8">
-          <text>&gt; 8</text>
+          <text>&gt; 5</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1hlxb1d">
           <text></text>
@@ -91,10 +91,10 @@
           <text></text>
         </inputEntry>
         <outputEntry id="LiteralExpression_1ldnrq0">
-          <text></text>
+          <text>passes</text>
         </outputEntry>
         <outputEntry id="LiteralExpression_135tx6h">
-          <text></text>
+          <text>"Model passed outlier detection test"</text>
         </outputEntry>
         <outputEntry id="LiteralExpression_1xruqgf">
           <text></text>
