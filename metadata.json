@@ -10,7 +10,7 @@
         "NR_EntityGuid":"MzM1NTQyMXxBUE18QVBQTElDQVRJT058MTA5ODM0MzA1MA",
         "NR_OVERRIDE": 200
     },
-    "modelMethodology": "classification",
+    "modelMethodology": "Classification",
     "modelRisk":"High",
     "roi": {
         "baselineMetricsTNR": 0.531,
