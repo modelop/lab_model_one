@@ -22,7 +22,7 @@
       <output id="OutputClause_1ids7f5" name="category" typeRef="string" biodi:width="150" />
       <rule id="DecisionRule_0aznir8">
         <inputEntry id="UnaryTests_1x4xf13">
-          <text>&gt;= 0.025</text>
+          <text>&gt;= 0.0025</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1wcb8sj">
           <text></text>
@@ -34,7 +34,7 @@
           <text>false</text>
         </outputEntry>
         <outputEntry id="LiteralExpression_07v4w07">
-          <text>"credit_history CSI above threshold of 0.025"</text>
+          <text>"credit_history CSI above threshold of 0.0025"</text>
         </outputEntry>
         <outputEntry id="LiteralExpression_0tu87g9">
           <text>"Stability"</text>
