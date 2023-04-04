@@ -1,5 +1,5 @@
-# modelop.schema.0: input_schema.avsc
-# modelop.schema.1: output_schema.avsc
+# modelop.schema.0: schema_input.avsc
+# modelop.schema.1: schema_output.avsc
 
 import pandas as pd
 import pickle
