@@ -1,0 +1,16 @@
+{
+    "monitoring": {
+        "bias": {
+            "protected_classes": [
+                {
+                    "attribute": "gender",
+                    "reference_group": "male"
+                },
+                {
+                    "attribute": "ageGroup",
+                    "reference_group": null
+                }
+            ]
+        }
+    }
+}
