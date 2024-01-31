@@ -1,5 +1,15 @@
 {
-   "Approvals": { 
+    "modelMethodology": "Classification",
+    "roi": {
+        "baselineMetricsTNR": 0.531,
+        "baselineMetricsTPR": 0.877,
+        "costMultipliersTP": 1.5,
+        "costMultipliersTN": 2,
+        "costMultipliersFP": -2,
+        "costMultipliersFN": -1.5
+    },
+   "custom": {
+      "Approvals": { 
    "Data Usage & Approvals": {
        "Internal": { 
           "PHI - Unmasked": "PENDING",
@@ -57,3 +67,4 @@
        "IT Owner": ""
     }
  }
+}
