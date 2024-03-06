@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:camunda="http://camunda.org/schema/1.0/dmn" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" id="Definitions_0wb2acp" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="4.3.0">
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:camunda="http://camunda.org/schema/1.0/dmn" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" id="Definitions_0wb2acp" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.19.0">
   <decision id="Decision_0q87m1a" name="Model Test Comparator">
     <decisionTable id="decisionTable_1" hitPolicy="COLLECT" biodi:annotationsWidth="400">
       <input id="input_1" label="auc" biodi:width="150" camunda:inputVariable="auc">
@@ -25,6 +25,11 @@
       <output id="output_1" label="passes" name="passes" typeRef="boolean" biodi:width="150" />
       <output id="OutputClause_05h1co6" label="reason" name="reason" typeRef="string" biodi:width="156" />
       <output id="OutputClause_1ids7f5" name="category" typeRef="string" biodi:width="164" />
+      <output id="OutputClause_17zxbcw" label="action" name="action" typeRef="string">
+        <outputValues id="UnaryTests_0wze9vu">
+          <text>"None","Notify","Jira","Undeploy"</text>
+        </outputValues>
+      </output>
       <rule id="DecisionRule_0aznir8">
         <inputEntry id="UnaryTests_1x4xf13">
           <text>&lt;= 0.7</text>
@@ -46,6 +51,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0tu87g9">
           <text>"Performance"</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_06ihwrz">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="DecisionRule_0ggwcp6">
@@ -70,6 +78,9 @@
         <outputEntry id="LiteralExpression_19mapv0">
           <text>"Performance"</text>
         </outputEntry>
+        <outputEntry id="LiteralExpression_15lpzu0">
+          <text></text>
+        </outputEntry>
       </rule>
       <rule id="DecisionRule_1jhzhxa">
         <inputEntry id="UnaryTests_1nyhwnh">
@@ -93,6 +104,9 @@
         <outputEntry id="LiteralExpression_0925z4o">
           <text>"Performance"</text>
         </outputEntry>
+        <outputEntry id="LiteralExpression_0hnj1f2">
+          <text></text>
+        </outputEntry>
       </rule>
       <rule id="DecisionRule_1bqcu3q">
         <inputEntry id="UnaryTests_1opba2k">
@@ -115,6 +129,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_1pfmsy2">
           <text>"Performance"</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0tnsepz">
+          <text></text>
         </outputEntry>
       </rule>
     </decisionTable>
