@@ -59,7 +59,7 @@
     "NEW_RELIC_API_KEY": "NRAK-D9JQN4NIEWCUPK3J8MNG4MB1HIX",
     "entityGuidDeepBrew": "MzM1NTQyMXxBUE18QVBQTElDQVRJT058MTA5ODM0MzA1MA",
     "entityGuidSynthetic": "MzM1NTQyMXxTWU5USHxNT05JVE9SfGZmN2RlYTQwLTQ0MzYtNDZlMS04NWRjLTBlOTNjYWYxZDgyZg",
-    "uses AI": "FILL_THIS_OUT",
+    "uses AI": "true",
     "Is Customer Facing": "FILL_THIS_OUT",
     "Contains PII_PHI": "FILL_THIS_OUT",
     "Model Owners": {
