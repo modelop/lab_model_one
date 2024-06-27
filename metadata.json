@@ -62,6 +62,9 @@
     "uses AI": "true",
     "Is Customer Facing": "FILL_THIS_OUT",
     "Contains PII_PHI": "FILL_THIS_OUT",
+    "Data" : {
+        "Data Sensitivity Classification" : "FooBar"
+    },
     "Model Owners": {
        "Business Owner": "",
        "IT Owner": ""
