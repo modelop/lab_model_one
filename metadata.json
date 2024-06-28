@@ -1,7 +1,7 @@
 {
     "modelMethodology": "Classification",
     "roi": {
-        "baselineMetricsTNR": 0.631,
+        "baselineMetricsTNR": 0.955,
         "baselineMetricsTPR": 0.877,
         "costMultipliersTP": 1.5,
         "costMultipliersTN": 2,
