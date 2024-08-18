@@ -98,7 +98,7 @@
          "driftCandidate": true,
          "specialValues": [],
          "scoringOptional": false,
-         "pii": false,
+         "pii": true,
          "phi": false
       },
       {
@@ -260,7 +260,7 @@
          "driftCandidate": true,
          "specialValues": [],
          "scoringOptional": false,
-         "pii": false,
+         "pii": true,
          "phi": false
       },
       {
@@ -284,7 +284,7 @@
          "driftCandidate": true,
          "specialValues": [],
          "scoringOptional": true,
-         "pii": false,
+         "pii": true,
          "phi": false
       },
       {
