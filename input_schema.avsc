@@ -297,8 +297,7 @@
          "specialValues": [],
          "scoringOptional": true,
          "pii": false,
-         "phi": false,
-         "positiveClassLabel": null
+         "phi": false
       },
       {
          "name": "score",
