@@ -15,12 +15,12 @@
          "phi": false
       },
       {
-         "name": "predictionDate",
-         "type": "string",
-         "dataClass": "categorical",
-         "role": "prediction_date",
+         "name": "Segment",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
          "protectedClass": false,
-         "driftCandidate": false,
+         "driftCandidate": true,
          "specialValues": [],
          "scoringOptional": false,
          "pii": false,
@@ -28,10 +28,7 @@
       },
       {
          "name": "duration_months",
-         "type": [
-            "int",
-            "null"
-         ],
+         "type": "int",
          "dataClass": "numerical",
          "role": "predictor",
          "protectedClass": false,
@@ -43,10 +40,7 @@
       },
       {
          "name": "credit_amount",
-         "type": [
-            "int",
-            "null"
-         ],
+         "type": "int",
          "dataClass": "numerical",
          "role": "predictor",
          "protectedClass": false,
@@ -58,10 +52,7 @@
       },
       {
          "name": "installment_rate",
-         "type": [
-            "int",
-            "null"
-         ],
+         "type": "int",
          "dataClass": "numerical",
          "role": "predictor",
          "protectedClass": false,
@@ -73,10 +64,7 @@
       },
       {
          "name": "present_residence_since",
-         "type": [
-            "int",
-            "null"
-         ],
+         "type": "int",
          "dataClass": "numerical",
          "role": "predictor",
          "protectedClass": false,
@@ -88,25 +76,19 @@
       },
       {
          "name": "age_years",
-         "type": [
-            "int",
-            "null"
-         ],
+         "type": "int",
          "dataClass": "numerical",
          "role": "predictor",
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
          "scoringOptional": false,
-         "pii": true,
+         "pii": false,
          "phi": false
       },
       {
          "name": "number_existing_credits",
-         "type": [
-            "int",
-            "null"
-         ],
+         "type": "int",
          "dataClass": "numerical",
          "role": "predictor",
          "protectedClass": false,
@@ -238,10 +220,7 @@
       },
       {
          "name": "number_people_liable",
-         "type": [
-            "int",
-            "null"
-         ],
+         "type": "int",
          "dataClass": "numerical",
          "role": "predictor",
          "protectedClass": false,
@@ -260,7 +239,7 @@
          "driftCandidate": true,
          "specialValues": [],
          "scoringOptional": false,
-         "pii": true,
+         "pii": false,
          "phi": false
       },
       {
@@ -284,7 +263,7 @@
          "driftCandidate": true,
          "specialValues": [],
          "scoringOptional": true,
-         "pii": true,
+         "pii": false,
          "phi": false
       },
       {
