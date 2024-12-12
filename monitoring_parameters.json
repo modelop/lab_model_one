@@ -15,7 +15,7 @@
         "business_value": {
             "ROI": {
                 "amount_field": "credit_amount",
-                "label_field": "label_value",
+                "label_field": "label",
                 "score_field": "score",
                 "baseline_metrics": {
                     "TNR": 0.877,
