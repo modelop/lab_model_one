@@ -1,0 +1,23 @@
+<rail version="0.1">
+
+<output>
+    <string
+        name="answer"
+        description="Filter out any profanity in a given answer"
+        validators="guardrails/toxic_language: 0.2 sentence;guardrails/profanity_free"
+        on-fail-guardrails_profanity_free="fix"
+        on-fail-guardrails_toxic_language="fix"
+    />
+</output>
+
+
+<prompt>
+
+Echo back the following exactly as it appears:
+${answer}
+
+${gr.complete_xml_suffix}
+</prompt>
+
+
+</rail>
