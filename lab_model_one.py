@@ -25,7 +25,8 @@ def action(data):
     
     # Turn data into DataFrame
     data = pd.DataFrame([data])
-    
+    if "label" in data:
+        data.rename(columns={"label": "label_value"}, inplace=True)
     # There are only two unique values in data.number_people_liable.
     # Treat it as a categorical feature
     data.number_people_liable = data.number_people_liable.astype('object')
